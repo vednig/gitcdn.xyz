@@ -42,14 +42,6 @@
           
 font-family: 'Poppins', sans-serif;
         }
-	  /* label color */
-   .input-field label {
-     color: #000;
-   }
-   /* label focus color */
-   .input-field input[type=text]:focus + label {
-     color: #000;
-   }
 
       </style>
 </head>
@@ -96,8 +88,8 @@ font-family: 'Poppins', sans-serif;
                         </h3>
                 </div>
                     <div class="input-field col s12">
-                        <input id="url" type="text" class="validate" placeholder="Paste the Link to Raw GitHub File">
-                        <label for="url">GitHub URL</label>
+                        <input id="url" type="text" class="validate" style="color:darkgray" placeholder="Paste the Link to Raw GitHub File">
+                        <label for="url" style="color:darkgray">GitHub URL</label>
                       </div>
 			    </div>
 
@@ -106,7 +98,7 @@ font-family: 'Poppins', sans-serif;
 
 			        <p class="input-field col s12">
                         
-			        <input id="url-dev" class="url" placeholder="user/repo/master/file" readonly>
+			        <input style="color:darkgray" id="url-dev" class="url" placeholder="user/repo/master/file" readonly>
                     <script>
 			        	document.querySelector('[readonly]').placeholder = location.href + document.querySelector('[readonly]').placeholder
 			        </script>
