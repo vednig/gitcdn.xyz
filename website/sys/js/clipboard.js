@@ -9,7 +9,7 @@
         button.classList.add('btn-clipboard');
         button.classList.add('waves-effect');
         button.classList.add('waves-light');
-        button.classList.add('orange');
+        button.classList.add('black');
         button.classList.add('darken-3');
         button.classList.add('btn');
         button.classList.add('hidden');
